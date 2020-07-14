@@ -6,7 +6,7 @@ public class GraveStone : MonoBehaviour
 {
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Attacker attacker = collision.GetComponent<Attacker>();
+        Attacker attacker = collision.GetComponent<Attacker>(); 
         if (attacker)
         {
 
